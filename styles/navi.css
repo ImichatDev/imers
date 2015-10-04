@@ -9,12 +9,70 @@
 	text-align: center;
 	color: black;
 	background: #86E4F7;
+
 }
 
 a {
 	text-decoration: none;
 }
 
+
+
+#box-menu-home{
+	position: fixed;
+	top: 30px;
+	left: 0px;
+	right: 0px;
+	width: 30%;
+	height: 55px;
+	background: #86E4F7;
+	color: black;
+	border: solid 1px black;
+}
+#box-menu-talk{
+	position: fixed;
+	top: 85px;
+	left: 0px;
+	right: 0px;
+	width: 30%;
+	height: 55px;
+	background: #86E4F7;
+	color: black;
+	border: solid 1px black;
+}
+#box-menu-friend{
+	position: fixed;
+	top: 140px;
+	left: 0px;
+	right: 0px;
+	width: 30%;
+	height: 55px;
+	background: #86E4F7;
+	color: black;
+	border: solid 1px black;
+}
+#box-menu-trend{
+	position: fixed;
+	top: 195px;
+	left: 0px;
+	right: 0px;
+	width: 30%;
+	height: 55px;
+	background: #86E4F7;
+	color: black;
+	border: solid 1px black;
+}
+#box-menu-shop{
+	position: fixed;
+	top: 250px;
+	left: 0px;
+	right: 0px;
+	width: 30%;
+	height: 55px;
+	background: #86E4F7;
+	color: black;
+	border: solid 1px black;
+}
 /* balloon-2 left */
 #balloon-2-left {
 	position: relative;
