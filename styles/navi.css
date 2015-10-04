@@ -14,3 +14,57 @@
 a {
 	text-decoration: none;
 }
+
+/* balloon-2 left */
+#balloon-2-left {
+	position: relative;
+	display: inline-block;
+	padding: 0 15px;
+	width: auto;
+	min-width: 115px;
+	height: 40px;
+	color: #F6F6F6;
+	line-height: 40px;
+	text-align: center;
+	background: gray;
+	z-index: 0;
+}
+#balloon-2-left:after {
+	content: "";
+	position: absolute;
+	top: 50%; left: -10px;
+	margin-top: -10px;
+	display: block;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 10px 10px 10px 0;
+	border-color: transparent #19283C transparent transparent;
+}
+
+/* balloon-2 right */
+#balloon-2-right {
+	position: relative;
+	display: inline-block;
+	padding: 0 15px;
+	width: auto;
+	min-width: 115px;
+	height: 40px;
+	color: black;
+	line-height: 40px;
+	text-align: center;
+	background: #86E4F7;
+	z-index: 0;
+}
+#balloon-2-right:after {
+	content: "";
+	position: absolute;
+	top: 50%; right: -10px;
+	margin-top: -10px;
+	display: block;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 10px 0 10px 10px;
+	border-color: transparent transparent transparent #19283C;
+}
