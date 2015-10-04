@@ -1,0 +1,16 @@
+﻿#navi {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 1em;
+	margin: 0;
+	padding: 0.5em;
+	text-align: center;
+	color: black;
+	background: #86E4F7;
+}
+
+a {
+	text-decoration: none;
+}
