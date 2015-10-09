@@ -30,6 +30,14 @@
 	<div id="box-menu-trend">
 		<h4>トレンド</h4>
 	</div>
-	
-
+	<div id="box-menu-shop">
+		<h4>AA・アスキーアート</h4>
+	</div>
+	<p id="about">俺さんとのチャット</p>
+	<div id="balloon-2-left">
+		あああ
+	</div>
+	<form action="" id="form">
+		<input type="text" name="あああ" ></input>あああ
+	</form>
 </body>
